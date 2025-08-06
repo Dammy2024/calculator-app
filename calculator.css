@@ -1,0 +1,42 @@
+.frame h1{
+
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.frame {
+  background:lightblue;
+  height:100vh;
+  width: 50vw;
+  border-radius:10px;
+  position: relative;
+}
+
+input {
+  width: 46vw;
+  padding:10px;
+  border:none;
+  background: black;
+  color: white;
+}
+
+
+button {
+  background: grey;
+  border:none;
+  padding: 10px;
+  border-radius: 5px;
+  justify-content: center;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 80px;
+  align-items: center;
+}
+
